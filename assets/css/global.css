@@ -160,12 +160,24 @@ body {
 }
 
 .pagination button {
-  background-color: #6c79db;
+  background-color: #8959d0;
   color: whitesmoke;
   border: none;
   border-radius: 1rem;
-  padding: .5rem 1rem;
+  padding: 0.3rem 1rem;
   font-size: 0.825rem;
+  box-shadow: 0 3px rgb(28, 28, 28);
+}
+
+.pagination button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.pagination button:active {
+  opacity: 0.5;
+  margin-top: 3px;
+  box-shadow: none;
 }
 
 @media screen and (min-width: 992px) {
